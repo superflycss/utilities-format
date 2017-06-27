@@ -1,2 +1,3 @@
-# utilities-display
-Display utilities
+# Format utilities
+
+Format utilities.
