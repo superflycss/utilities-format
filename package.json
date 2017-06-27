@@ -1,5 +1,5 @@
 {
-  "name": "@superflycss/utilities-colors",
+  "name": "@superflycss/utilities-format",
   "version": "1.0.0",
   "description": "Format utilities",
   "main": "src/main/css/index.css",
