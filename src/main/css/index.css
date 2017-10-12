@@ -21,10 +21,6 @@ currently in effects I think ... text overflow in layout ...*/
   text-transform: lowercase;
 }
 
-.u-text-capitalize {
-  text-transform: capitalize;
-}
-
 .u-text-align-center {
     text-align: center;
 }
