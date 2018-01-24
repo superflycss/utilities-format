@@ -36,7 +36,7 @@
     "@superflycss/pli": "^1.0.0",
     "@superflycss/task-build": "^1.0.5",
     "@superflycss/task-clean": "^1.0.0",
-    "@superflycss/task-deploy": "^1.0.2",
+    "@superflycss/task-deploy": "^2.1.2",
     "@superflycss/task-lint": "^1.0.0",
     "@superflycss/task-test": "^1.0.1",
     "@superflycss/utilities-layout": "^2.0.3",
