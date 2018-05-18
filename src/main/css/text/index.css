@@ -1,0 +1,45 @@
+.u-text-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-lowercase {
+    text-transform: lowercase;
+}
+
+.u-text-align-center {
+    text-align: center;
+}
+
+.u-text-align-left {
+    text-align: left;
+}
+
+.u-text-align-right {
+    text-align: right;
+}
+
+.u-text-align-justify {
+    text-align: right;
+}
+
+.u-text-decoration-none {
+    text-decoration: none;
+}
+
+.u-text-decoration-overline {
+    text-decoration: overline;
+}
+
+.u-text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+.u-text-decoration-underline {
+    text-decoration: underline;
+}
+
+@for $factor from 1 to 50 {
+    .u-text-indent-$(factor)px {
+        text-indent: $(factor)px !important;
+    }
+}

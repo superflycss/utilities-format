@@ -1,0 +1,10 @@
+@for $spacing from 0 to 100 {
+    :root {
+      --u-letter-spacing-$(spacing)px {
+        letter-spacing: $(spacing)px !important;
+      }
+    }
+    .u-letter-spacing-$(spacing)px {
+      @apply(--u-letter-spacing-$(spacing)px);
+    }
+  }
