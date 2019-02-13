@@ -19,7 +19,7 @@
 }
 
 .u-text-align-justify {
-    text-align: right;
+    text-align: justify;
 }
 
 .u-text-decoration-none {
@@ -41,5 +41,11 @@
 @for $factor from 1 to 50 {
     .u-text-indent-$(factor)px {
         text-indent: $(factor)px !important;
+    }
+}
+
+@for $factor from 10 to 50 {
+    .u-line-height-$(factor) {
+        line-height: calc($(factor)/10)rem;
     }
 }
