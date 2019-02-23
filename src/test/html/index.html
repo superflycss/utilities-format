@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.utility( 'format' ) }}
+
+<body>
+
+{{ TestHeader.utility( 'format' ) }}
+
+<!--START TEST 1-->
+{% include "letters.html" %}
+
+{% include "liststyletype.html" %}
+
+{% include "text.html" %}
+</body>
+
+</html>

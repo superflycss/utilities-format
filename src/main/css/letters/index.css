@@ -1,24 +1,18 @@
-@for $spacing from 0 to 100 {
-  :root {
-    --u-letter-spacing-$(spacing)px {
-      letter-spacing: $(spacing) px !important;
+@import "../variables/letters";
+
+@for $spacing from 0 to 20 {
+    .u-letter-spacing-$(spacing)px {
+      letter-spacing: var(--letter-spacing-$(spacing)px) !important;
     }
-  }
-  .u-letter-spacing-$(spacing)px {
-    @apply (--u-letter-spacing-$(spacing)px);
-  }
+}
+@for $spacing from 0 to 100 {
+  .u-fractional-letter-spacing-$(spacing)px {
+    letter-spacing: var(--fractional-letter-spacing-$(spacing)px) !important;
+  }    
 }
 
-
-@for $spacing from 0 to 100 {
-  :root {
-    --u-letter-fractional-spacing-$(spacing) {
-      letter-spacing: calc($(spacing)/10)px !important;
-    }
-  }
-  .u-letter-fractional-spacing-$(spacing) {
-    @apply (--u-letter-fractional-spacing-$(spacing));
-  }
+@for $height from 15 to 50 {
+  .u-line-height-$(height)px {
+    line-height: var(--line-height-$(height)px) !important;
+  }    
 }
-
-

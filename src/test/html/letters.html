@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.component( 'test' ) }}
+
+<body>
+
+<!--START TEST 1-->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-letter-spacing-[dimension]px</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-letter-spacing-[dimension]px', when1, 'The correct letter spacing is rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+  {% for i in range(0, 21) -%}
+  <div class="TestBox
+              u-letter-spacing-{{i}}px">
+              Lorem ipsum dolor sit amet
+  </div>
+  <br>
+{%- endfor %}
+</div>{% endcall %}
+
+<!--START TEST 2-->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-fractional-letter-spacing-[dimension]px</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-fractional-letter-spacing-[dimension]px', when1, 'The correct letter spacing ( Pixel unit / 10 ) is rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+  {% for i in range(0, 101) -%}
+  <div class="TestBox
+              u-fractional-letter-spacing-{{i}}px">
+              Lorem ipsum dolor sit amet
+  </div>
+  <br>
+{%- endfor %}
+</div>{% endcall %}
+
+<!--START TEST 3-->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-fractional-line-height-[dimension]px</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-fractional-line-height-[dimension]px', when1, 'The correct line height ( REM unit / 2 ) is rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+  {% for i in range(15, 50) -%}
+  <div class="TestBox
+              u-max-width-20rem
+              u-line-height-{{i}}px">
+              Lorem ipsum dolor sit amet 
+              Lorem ipsum dolor sit amet 
+              Lorem ipsum dolor sit amet
+  </div>
+  <br>
+{%- endfor %}
+</div>
+{% endcall %}
+
+
+{% include "liststyletype.html" %}
+</body>
+
+</html>

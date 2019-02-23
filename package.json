@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/utilities-format",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Format utilities",
   "main": "index.css",
   "scripts": {
@@ -25,12 +25,16 @@
   },
   "homepage": "https://github.com/superflycss/utilities-format#readme",
   "devDependencies": {
+    "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
-    "@superflycss/component-header": "^2.0.1",
-    "@superflycss/component-test": "^2.0.32",
+    "@superflycss/component-header": "^2.1.0",
+    "@superflycss/component-test": "^3.6.24",
     "@superflycss/foundation": "^2.0.3",
-    "@superflycss/utilities-layout": "^4.0.1",
-    "lite-server": "^2.3.0",
-    "npm-check-updates": "^2.14.2"
+    "@superflycss/utilities-layout": "^4.0.15",
+    "@superflycss/utilities-colors": "^3.0.9",
+    "@superflycss/utilities-effects": "^2.1.0",
+    "@superflycss/utilities-fonts": "^3.3.7",
+    "lite-server": "^2.4.0",
+    "npm-check-updates": "^2.15.0"
   }
 }
