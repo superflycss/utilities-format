@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/utilities-format",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Format utilities",
   "main": "index.css",
   "scripts": {
