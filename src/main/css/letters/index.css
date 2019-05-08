@@ -16,3 +16,26 @@
     line-height: var(--line-height-$(height)px) !important;
   }    
 }
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+    @for $spacing from 0 to 20 {
+      .u-$(vpsize)-letter-spacing-$(spacing)px {
+        letter-spacing: var(--letter-spacing-$(spacing)px) !important;
+      }
+    }
+    @for $spacing from 0 to 100 {
+      .u-$(vpsize)-fractional-letter-spacing-$(spacing)px {
+        letter-spacing: var(--fractional-letter-spacing-$(spacing)px) !important;
+        }
+      }
+    
+    @for $height from 15 to 50 {
+    .u-$(vpsize)-line-height-$(height)px {
+      line-height: var(--line-height-$(height)px) !important;
+      }    
+    }
+  }
+}
+  
+

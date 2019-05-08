@@ -1,4 +1,5 @@
 @import "../variables/text";
+@import "@superflycss/variables-dimension";
 
 @for $factor from 1 to 50 {
   .u-text-indent-$(factor)px {
@@ -49,4 +50,61 @@
 
 .u-text-decoration-underline {
   text-decoration: underline;
+}
+
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+  
+    @for $factor from 1 to 50 {
+      .u-$(vpsize)-text-indent-$(factor)px {
+        text-indent: var(--u-text-indent-$(factor)px) !important;
+      }
+    }
+    @for $factor from 1 to 10 {
+      .u-$(vpsize)-text-indent-$(factor)rem {
+        text-indent: var(--u-text-indent-$(factor)rem) !important;
+      }
+    }
+    
+    .u-$(vpsize)-text-uppercase {
+      text-transform: uppercase;
+    }
+    
+    .u-$(vpsize)-text-lowercase {
+      text-transform: lowercase;
+    }
+    
+    .u-$(vpsize)-text-align-center {
+      text-align: center;
+    }
+    
+    .u-$(vpsize)-text-align-left {
+      text-align: left;
+    }
+    
+    .u-$(vpsize)-text-align-right {
+      text-align: right;
+    }
+    
+    .u-$(vpsize)-text-align-justify {
+      text-align: justify;
+    }
+    
+    .u-$(vpsize)-text-decoration-none {
+      text-decoration: none;
+    }
+    
+    .u-$(vpsize)-text-decoration-overline {
+      text-decoration: overline;
+    }
+    
+    .u-$(vpsize)-text-decoration-line-through {
+      text-decoration: line-through;
+    }
+    
+    .u-$(vpsize)-text-decoration-underline {
+      text-decoration: underline;
+    }
+  }
 }

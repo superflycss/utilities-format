@@ -7,3 +7,16 @@
     list-style-type: $type !important;
   }
 }
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+    @each $type in none, inherit, circle, disc, decimal, lower-alpha,
+      lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
+      upper-greek, upper-roman
+    {
+      .u-$(vpsize)-list-style-$type {
+        list-style-type: $type !important;
+      }
+    }
+  }
+}
