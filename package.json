@@ -1,10 +1,10 @@
 {
   "name": "@superflycss/utilities-format",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Format utilities",
   "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i"
+    "update": "ncu -u && npm i"
   },
   "repository": {
     "type": "git",
@@ -26,13 +26,13 @@
   "homepage": "https://github.com/superflycss/utilities-format#readme",
   "devDependencies": {
     "@superflycss/component-body": "^1.0.4",
-    "@superflycss/component-display": "^1.0.5",
+    "@superflycss/component-display": "^1.0.9",
     "@superflycss/component-header": "^2.1.0",
-    "@superflycss/component-test": "^3.6.29",
+    "@superflycss/component-test": "^3.6.30",
     "@superflycss/foundation": "^2.0.3",
-    "@superflycss/utilities-layout": "^4.0.23",
-    "@superflycss/utilities-colors": "^3.1.0",
-    "@superflycss/utilities-effects": "^2.1.0",
+    "@superflycss/utilities-layout": "^4.0.25",
+    "@superflycss/utilities-colors": "^3.2.9",
+    "@superflycss/utilities-effects": "^2.1.3",
     "@superflycss/utilities-fonts": "^3.3.7",
     "lite-server": "^2.4.0",
     "npm-check-updates": "^3.1.9"
