@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.component( 'test' ) }}
+
+<body>
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-list-style-[type]</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-list-style-[type]', when1, 'The correct list style type is rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+{% for type in ['none', 'inherit', 'circle', 'disc', 'decimal', 'lower-alpha', 'lower-latin', 'lower-greek', 'lower-roman', 'upper-alpha', 'upper-latin', 'upper-greek', 'upper-roman'] %}
+  <ul class="u-list-style-{{type}} 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+{%- endfor %}
+</div>
+{% endcall %}
+</body>
+
+</html>

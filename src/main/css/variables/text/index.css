@@ -1,0 +1,49 @@
+:root {
+  @for $factor from 1 to 50 {
+    --u-text-indent-$(factor)px: $(factor)px;
+  }
+
+  @for $factor from 1 to 10 {
+    --u-text-indent-$(factor)rem: $(factor)rem;
+  }
+
+  --u-text-uppercase {
+    text-transform: uppercase;
+  }
+
+  --u-text-lowercase {
+    text-transform: lowercase;
+  }
+
+  --u-text-align-center {
+    text-align: center;
+  }
+
+  --u-text-align-left {
+    text-align: left;
+  }
+
+  --u-text-align-right {
+    text-align: right;
+  }
+
+  --u-text-align-justify {
+    text-align: justify;
+  }
+
+  --u-text-decoration-none {
+    text-decoration: none;
+  }
+
+  --u-text-decoration-overline {
+    text-decoration: overline;
+  }
+
+  --u-text-decoration-line-through {
+    text-decoration: line-through;
+  }
+
+  --u-text-decoration-underline {
+    text-decoration: underline;
+  }
+}

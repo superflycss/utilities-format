@@ -1,0 +1,1114 @@
+/*! superflycss/variables-dimension | MIT License | https://github.com/superflycss/variables-dimension/blob/master/LICENSE.md */
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+/*
+=======================================
+ DIMENSION VARIABLES
+=======================================
+ 0:  Spacers.
+ 1:  Borders.
+ 2:  Z-Index
+ 3:  Default Media Breakpoints
+================================
+*/
+/* 0 */
+/* 1 */
+/* 2 */
+/* 3 */
+.u-text-indent-1px {
+    text-indent: 1px !important;
+  }
+.u-text-indent-2px {
+    text-indent: 2px !important;
+  }
+.u-text-indent-3px {
+    text-indent: 3px !important;
+  }
+.u-text-indent-4px {
+    text-indent: 4px !important;
+  }
+.u-text-indent-5px {
+    text-indent: 5px !important;
+  }
+.u-text-indent-6px {
+    text-indent: 6px !important;
+  }
+.u-text-indent-7px {
+    text-indent: 7px !important;
+  }
+.u-text-indent-8px {
+    text-indent: 8px !important;
+  }
+.u-text-indent-9px {
+    text-indent: 9px !important;
+  }
+.u-text-indent-10px {
+    text-indent: 10px !important;
+  }
+.u-text-indent-11px {
+    text-indent: 11px !important;
+  }
+.u-text-indent-12px {
+    text-indent: 12px !important;
+  }
+.u-text-indent-13px {
+    text-indent: 13px !important;
+  }
+.u-text-indent-14px {
+    text-indent: 14px !important;
+  }
+.u-text-indent-15px {
+    text-indent: 15px !important;
+  }
+.u-text-indent-16px {
+    text-indent: 16px !important;
+  }
+.u-text-indent-17px {
+    text-indent: 17px !important;
+  }
+.u-text-indent-18px {
+    text-indent: 18px !important;
+  }
+.u-text-indent-19px {
+    text-indent: 19px !important;
+  }
+.u-text-indent-20px {
+    text-indent: 20px !important;
+  }
+.u-text-indent-21px {
+    text-indent: 21px !important;
+  }
+.u-text-indent-22px {
+    text-indent: 22px !important;
+  }
+.u-text-indent-23px {
+    text-indent: 23px !important;
+  }
+.u-text-indent-24px {
+    text-indent: 24px !important;
+  }
+.u-text-indent-25px {
+    text-indent: 25px !important;
+  }
+.u-text-indent-26px {
+    text-indent: 26px !important;
+  }
+.u-text-indent-27px {
+    text-indent: 27px !important;
+  }
+.u-text-indent-28px {
+    text-indent: 28px !important;
+  }
+.u-text-indent-29px {
+    text-indent: 29px !important;
+  }
+.u-text-indent-30px {
+    text-indent: 30px !important;
+  }
+.u-text-indent-31px {
+    text-indent: 31px !important;
+  }
+.u-text-indent-32px {
+    text-indent: 32px !important;
+  }
+.u-text-indent-33px {
+    text-indent: 33px !important;
+  }
+.u-text-indent-34px {
+    text-indent: 34px !important;
+  }
+.u-text-indent-35px {
+    text-indent: 35px !important;
+  }
+.u-text-indent-36px {
+    text-indent: 36px !important;
+  }
+.u-text-indent-37px {
+    text-indent: 37px !important;
+  }
+.u-text-indent-38px {
+    text-indent: 38px !important;
+  }
+.u-text-indent-39px {
+    text-indent: 39px !important;
+  }
+.u-text-indent-40px {
+    text-indent: 40px !important;
+  }
+.u-text-indent-41px {
+    text-indent: 41px !important;
+  }
+.u-text-indent-42px {
+    text-indent: 42px !important;
+  }
+.u-text-indent-43px {
+    text-indent: 43px !important;
+  }
+.u-text-indent-44px {
+    text-indent: 44px !important;
+  }
+.u-text-indent-45px {
+    text-indent: 45px !important;
+  }
+.u-text-indent-46px {
+    text-indent: 46px !important;
+  }
+.u-text-indent-47px {
+    text-indent: 47px !important;
+  }
+.u-text-indent-48px {
+    text-indent: 48px !important;
+  }
+.u-text-indent-49px {
+    text-indent: 49px !important;
+  }
+.u-text-indent-50px {
+    text-indent: 50px !important;
+  }
+.u-text-indent-1rem {
+    text-indent: 1rem !important;
+  }
+.u-text-indent-2rem {
+    text-indent: 2rem !important;
+  }
+.u-text-indent-3rem {
+    text-indent: 3rem !important;
+  }
+.u-text-indent-4rem {
+    text-indent: 4rem !important;
+  }
+.u-text-indent-5rem {
+    text-indent: 5rem !important;
+  }
+.u-text-indent-6rem {
+    text-indent: 6rem !important;
+  }
+.u-text-indent-7rem {
+    text-indent: 7rem !important;
+  }
+.u-text-indent-8rem {
+    text-indent: 8rem !important;
+  }
+.u-text-indent-9rem {
+    text-indent: 9rem !important;
+  }
+.u-text-indent-10rem {
+    text-indent: 10rem !important;
+  }
+.u-text-uppercase {
+  text-transform: uppercase;
+}
+.u-text-lowercase {
+  text-transform: lowercase;
+}
+.u-text-align-center {
+  text-align: center;
+}
+.u-text-align-left {
+  text-align: left;
+}
+.u-text-align-right {
+  text-align: right;
+}
+.u-text-align-justify {
+  text-align: justify;
+}
+.u-text-decoration-none {
+  text-decoration: none;
+}
+.u-text-decoration-overline {
+  text-decoration: overline;
+}
+.u-text-decoration-line-through {
+  text-decoration: line-through;
+}
+.u-text-decoration-underline {
+  text-decoration: underline;
+}
+@media (min-width: 576px) {
+      .u-sm-text-indent-1px {
+        text-indent: 1px !important;
+      }
+      .u-sm-text-indent-2px {
+        text-indent: 2px !important;
+      }
+      .u-sm-text-indent-3px {
+        text-indent: 3px !important;
+      }
+      .u-sm-text-indent-4px {
+        text-indent: 4px !important;
+      }
+      .u-sm-text-indent-5px {
+        text-indent: 5px !important;
+      }
+      .u-sm-text-indent-6px {
+        text-indent: 6px !important;
+      }
+      .u-sm-text-indent-7px {
+        text-indent: 7px !important;
+      }
+      .u-sm-text-indent-8px {
+        text-indent: 8px !important;
+      }
+      .u-sm-text-indent-9px {
+        text-indent: 9px !important;
+      }
+      .u-sm-text-indent-10px {
+        text-indent: 10px !important;
+      }
+      .u-sm-text-indent-11px {
+        text-indent: 11px !important;
+      }
+      .u-sm-text-indent-12px {
+        text-indent: 12px !important;
+      }
+      .u-sm-text-indent-13px {
+        text-indent: 13px !important;
+      }
+      .u-sm-text-indent-14px {
+        text-indent: 14px !important;
+      }
+      .u-sm-text-indent-15px {
+        text-indent: 15px !important;
+      }
+      .u-sm-text-indent-16px {
+        text-indent: 16px !important;
+      }
+      .u-sm-text-indent-17px {
+        text-indent: 17px !important;
+      }
+      .u-sm-text-indent-18px {
+        text-indent: 18px !important;
+      }
+      .u-sm-text-indent-19px {
+        text-indent: 19px !important;
+      }
+      .u-sm-text-indent-20px {
+        text-indent: 20px !important;
+      }
+      .u-sm-text-indent-21px {
+        text-indent: 21px !important;
+      }
+      .u-sm-text-indent-22px {
+        text-indent: 22px !important;
+      }
+      .u-sm-text-indent-23px {
+        text-indent: 23px !important;
+      }
+      .u-sm-text-indent-24px {
+        text-indent: 24px !important;
+      }
+      .u-sm-text-indent-25px {
+        text-indent: 25px !important;
+      }
+      .u-sm-text-indent-26px {
+        text-indent: 26px !important;
+      }
+      .u-sm-text-indent-27px {
+        text-indent: 27px !important;
+      }
+      .u-sm-text-indent-28px {
+        text-indent: 28px !important;
+      }
+      .u-sm-text-indent-29px {
+        text-indent: 29px !important;
+      }
+      .u-sm-text-indent-30px {
+        text-indent: 30px !important;
+      }
+      .u-sm-text-indent-31px {
+        text-indent: 31px !important;
+      }
+      .u-sm-text-indent-32px {
+        text-indent: 32px !important;
+      }
+      .u-sm-text-indent-33px {
+        text-indent: 33px !important;
+      }
+      .u-sm-text-indent-34px {
+        text-indent: 34px !important;
+      }
+      .u-sm-text-indent-35px {
+        text-indent: 35px !important;
+      }
+      .u-sm-text-indent-36px {
+        text-indent: 36px !important;
+      }
+      .u-sm-text-indent-37px {
+        text-indent: 37px !important;
+      }
+      .u-sm-text-indent-38px {
+        text-indent: 38px !important;
+      }
+      .u-sm-text-indent-39px {
+        text-indent: 39px !important;
+      }
+      .u-sm-text-indent-40px {
+        text-indent: 40px !important;
+      }
+      .u-sm-text-indent-41px {
+        text-indent: 41px !important;
+      }
+      .u-sm-text-indent-42px {
+        text-indent: 42px !important;
+      }
+      .u-sm-text-indent-43px {
+        text-indent: 43px !important;
+      }
+      .u-sm-text-indent-44px {
+        text-indent: 44px !important;
+      }
+      .u-sm-text-indent-45px {
+        text-indent: 45px !important;
+      }
+      .u-sm-text-indent-46px {
+        text-indent: 46px !important;
+      }
+      .u-sm-text-indent-47px {
+        text-indent: 47px !important;
+      }
+      .u-sm-text-indent-48px {
+        text-indent: 48px !important;
+      }
+      .u-sm-text-indent-49px {
+        text-indent: 49px !important;
+      }
+      .u-sm-text-indent-50px {
+        text-indent: 50px !important;
+      }
+      .u-sm-text-indent-1rem {
+        text-indent: 1rem !important;
+      }
+      .u-sm-text-indent-2rem {
+        text-indent: 2rem !important;
+      }
+      .u-sm-text-indent-3rem {
+        text-indent: 3rem !important;
+      }
+      .u-sm-text-indent-4rem {
+        text-indent: 4rem !important;
+      }
+      .u-sm-text-indent-5rem {
+        text-indent: 5rem !important;
+      }
+      .u-sm-text-indent-6rem {
+        text-indent: 6rem !important;
+      }
+      .u-sm-text-indent-7rem {
+        text-indent: 7rem !important;
+      }
+      .u-sm-text-indent-8rem {
+        text-indent: 8rem !important;
+      }
+      .u-sm-text-indent-9rem {
+        text-indent: 9rem !important;
+      }
+      .u-sm-text-indent-10rem {
+        text-indent: 10rem !important;
+      }
+    
+    .u-sm-text-uppercase {
+      text-transform: uppercase;
+    }
+    
+    .u-sm-text-lowercase {
+      text-transform: lowercase;
+    }
+    
+    .u-sm-text-align-center {
+      text-align: center;
+    }
+    
+    .u-sm-text-align-left {
+      text-align: left;
+    }
+    
+    .u-sm-text-align-right {
+      text-align: right;
+    }
+    
+    .u-sm-text-align-justify {
+      text-align: justify;
+    }
+    
+    .u-sm-text-decoration-none {
+      text-decoration: none;
+    }
+    
+    .u-sm-text-decoration-overline {
+      text-decoration: overline;
+    }
+    
+    .u-sm-text-decoration-line-through {
+      text-decoration: line-through;
+    }
+    
+    .u-sm-text-decoration-underline {
+      text-decoration: underline;
+    }
+  }
+@media (min-width: 768px) {
+      .u-md-text-indent-1px {
+        text-indent: 1px !important;
+      }
+      .u-md-text-indent-2px {
+        text-indent: 2px !important;
+      }
+      .u-md-text-indent-3px {
+        text-indent: 3px !important;
+      }
+      .u-md-text-indent-4px {
+        text-indent: 4px !important;
+      }
+      .u-md-text-indent-5px {
+        text-indent: 5px !important;
+      }
+      .u-md-text-indent-6px {
+        text-indent: 6px !important;
+      }
+      .u-md-text-indent-7px {
+        text-indent: 7px !important;
+      }
+      .u-md-text-indent-8px {
+        text-indent: 8px !important;
+      }
+      .u-md-text-indent-9px {
+        text-indent: 9px !important;
+      }
+      .u-md-text-indent-10px {
+        text-indent: 10px !important;
+      }
+      .u-md-text-indent-11px {
+        text-indent: 11px !important;
+      }
+      .u-md-text-indent-12px {
+        text-indent: 12px !important;
+      }
+      .u-md-text-indent-13px {
+        text-indent: 13px !important;
+      }
+      .u-md-text-indent-14px {
+        text-indent: 14px !important;
+      }
+      .u-md-text-indent-15px {
+        text-indent: 15px !important;
+      }
+      .u-md-text-indent-16px {
+        text-indent: 16px !important;
+      }
+      .u-md-text-indent-17px {
+        text-indent: 17px !important;
+      }
+      .u-md-text-indent-18px {
+        text-indent: 18px !important;
+      }
+      .u-md-text-indent-19px {
+        text-indent: 19px !important;
+      }
+      .u-md-text-indent-20px {
+        text-indent: 20px !important;
+      }
+      .u-md-text-indent-21px {
+        text-indent: 21px !important;
+      }
+      .u-md-text-indent-22px {
+        text-indent: 22px !important;
+      }
+      .u-md-text-indent-23px {
+        text-indent: 23px !important;
+      }
+      .u-md-text-indent-24px {
+        text-indent: 24px !important;
+      }
+      .u-md-text-indent-25px {
+        text-indent: 25px !important;
+      }
+      .u-md-text-indent-26px {
+        text-indent: 26px !important;
+      }
+      .u-md-text-indent-27px {
+        text-indent: 27px !important;
+      }
+      .u-md-text-indent-28px {
+        text-indent: 28px !important;
+      }
+      .u-md-text-indent-29px {
+        text-indent: 29px !important;
+      }
+      .u-md-text-indent-30px {
+        text-indent: 30px !important;
+      }
+      .u-md-text-indent-31px {
+        text-indent: 31px !important;
+      }
+      .u-md-text-indent-32px {
+        text-indent: 32px !important;
+      }
+      .u-md-text-indent-33px {
+        text-indent: 33px !important;
+      }
+      .u-md-text-indent-34px {
+        text-indent: 34px !important;
+      }
+      .u-md-text-indent-35px {
+        text-indent: 35px !important;
+      }
+      .u-md-text-indent-36px {
+        text-indent: 36px !important;
+      }
+      .u-md-text-indent-37px {
+        text-indent: 37px !important;
+      }
+      .u-md-text-indent-38px {
+        text-indent: 38px !important;
+      }
+      .u-md-text-indent-39px {
+        text-indent: 39px !important;
+      }
+      .u-md-text-indent-40px {
+        text-indent: 40px !important;
+      }
+      .u-md-text-indent-41px {
+        text-indent: 41px !important;
+      }
+      .u-md-text-indent-42px {
+        text-indent: 42px !important;
+      }
+      .u-md-text-indent-43px {
+        text-indent: 43px !important;
+      }
+      .u-md-text-indent-44px {
+        text-indent: 44px !important;
+      }
+      .u-md-text-indent-45px {
+        text-indent: 45px !important;
+      }
+      .u-md-text-indent-46px {
+        text-indent: 46px !important;
+      }
+      .u-md-text-indent-47px {
+        text-indent: 47px !important;
+      }
+      .u-md-text-indent-48px {
+        text-indent: 48px !important;
+      }
+      .u-md-text-indent-49px {
+        text-indent: 49px !important;
+      }
+      .u-md-text-indent-50px {
+        text-indent: 50px !important;
+      }
+      .u-md-text-indent-1rem {
+        text-indent: 1rem !important;
+      }
+      .u-md-text-indent-2rem {
+        text-indent: 2rem !important;
+      }
+      .u-md-text-indent-3rem {
+        text-indent: 3rem !important;
+      }
+      .u-md-text-indent-4rem {
+        text-indent: 4rem !important;
+      }
+      .u-md-text-indent-5rem {
+        text-indent: 5rem !important;
+      }
+      .u-md-text-indent-6rem {
+        text-indent: 6rem !important;
+      }
+      .u-md-text-indent-7rem {
+        text-indent: 7rem !important;
+      }
+      .u-md-text-indent-8rem {
+        text-indent: 8rem !important;
+      }
+      .u-md-text-indent-9rem {
+        text-indent: 9rem !important;
+      }
+      .u-md-text-indent-10rem {
+        text-indent: 10rem !important;
+      }
+    
+    .u-md-text-uppercase {
+      text-transform: uppercase;
+    }
+    
+    .u-md-text-lowercase {
+      text-transform: lowercase;
+    }
+    
+    .u-md-text-align-center {
+      text-align: center;
+    }
+    
+    .u-md-text-align-left {
+      text-align: left;
+    }
+    
+    .u-md-text-align-right {
+      text-align: right;
+    }
+    
+    .u-md-text-align-justify {
+      text-align: justify;
+    }
+    
+    .u-md-text-decoration-none {
+      text-decoration: none;
+    }
+    
+    .u-md-text-decoration-overline {
+      text-decoration: overline;
+    }
+    
+    .u-md-text-decoration-line-through {
+      text-decoration: line-through;
+    }
+    
+    .u-md-text-decoration-underline {
+      text-decoration: underline;
+    }
+  }
+@media (min-width: 992px) {
+      .u-lg-text-indent-1px {
+        text-indent: 1px !important;
+      }
+      .u-lg-text-indent-2px {
+        text-indent: 2px !important;
+      }
+      .u-lg-text-indent-3px {
+        text-indent: 3px !important;
+      }
+      .u-lg-text-indent-4px {
+        text-indent: 4px !important;
+      }
+      .u-lg-text-indent-5px {
+        text-indent: 5px !important;
+      }
+      .u-lg-text-indent-6px {
+        text-indent: 6px !important;
+      }
+      .u-lg-text-indent-7px {
+        text-indent: 7px !important;
+      }
+      .u-lg-text-indent-8px {
+        text-indent: 8px !important;
+      }
+      .u-lg-text-indent-9px {
+        text-indent: 9px !important;
+      }
+      .u-lg-text-indent-10px {
+        text-indent: 10px !important;
+      }
+      .u-lg-text-indent-11px {
+        text-indent: 11px !important;
+      }
+      .u-lg-text-indent-12px {
+        text-indent: 12px !important;
+      }
+      .u-lg-text-indent-13px {
+        text-indent: 13px !important;
+      }
+      .u-lg-text-indent-14px {
+        text-indent: 14px !important;
+      }
+      .u-lg-text-indent-15px {
+        text-indent: 15px !important;
+      }
+      .u-lg-text-indent-16px {
+        text-indent: 16px !important;
+      }
+      .u-lg-text-indent-17px {
+        text-indent: 17px !important;
+      }
+      .u-lg-text-indent-18px {
+        text-indent: 18px !important;
+      }
+      .u-lg-text-indent-19px {
+        text-indent: 19px !important;
+      }
+      .u-lg-text-indent-20px {
+        text-indent: 20px !important;
+      }
+      .u-lg-text-indent-21px {
+        text-indent: 21px !important;
+      }
+      .u-lg-text-indent-22px {
+        text-indent: 22px !important;
+      }
+      .u-lg-text-indent-23px {
+        text-indent: 23px !important;
+      }
+      .u-lg-text-indent-24px {
+        text-indent: 24px !important;
+      }
+      .u-lg-text-indent-25px {
+        text-indent: 25px !important;
+      }
+      .u-lg-text-indent-26px {
+        text-indent: 26px !important;
+      }
+      .u-lg-text-indent-27px {
+        text-indent: 27px !important;
+      }
+      .u-lg-text-indent-28px {
+        text-indent: 28px !important;
+      }
+      .u-lg-text-indent-29px {
+        text-indent: 29px !important;
+      }
+      .u-lg-text-indent-30px {
+        text-indent: 30px !important;
+      }
+      .u-lg-text-indent-31px {
+        text-indent: 31px !important;
+      }
+      .u-lg-text-indent-32px {
+        text-indent: 32px !important;
+      }
+      .u-lg-text-indent-33px {
+        text-indent: 33px !important;
+      }
+      .u-lg-text-indent-34px {
+        text-indent: 34px !important;
+      }
+      .u-lg-text-indent-35px {
+        text-indent: 35px !important;
+      }
+      .u-lg-text-indent-36px {
+        text-indent: 36px !important;
+      }
+      .u-lg-text-indent-37px {
+        text-indent: 37px !important;
+      }
+      .u-lg-text-indent-38px {
+        text-indent: 38px !important;
+      }
+      .u-lg-text-indent-39px {
+        text-indent: 39px !important;
+      }
+      .u-lg-text-indent-40px {
+        text-indent: 40px !important;
+      }
+      .u-lg-text-indent-41px {
+        text-indent: 41px !important;
+      }
+      .u-lg-text-indent-42px {
+        text-indent: 42px !important;
+      }
+      .u-lg-text-indent-43px {
+        text-indent: 43px !important;
+      }
+      .u-lg-text-indent-44px {
+        text-indent: 44px !important;
+      }
+      .u-lg-text-indent-45px {
+        text-indent: 45px !important;
+      }
+      .u-lg-text-indent-46px {
+        text-indent: 46px !important;
+      }
+      .u-lg-text-indent-47px {
+        text-indent: 47px !important;
+      }
+      .u-lg-text-indent-48px {
+        text-indent: 48px !important;
+      }
+      .u-lg-text-indent-49px {
+        text-indent: 49px !important;
+      }
+      .u-lg-text-indent-50px {
+        text-indent: 50px !important;
+      }
+      .u-lg-text-indent-1rem {
+        text-indent: 1rem !important;
+      }
+      .u-lg-text-indent-2rem {
+        text-indent: 2rem !important;
+      }
+      .u-lg-text-indent-3rem {
+        text-indent: 3rem !important;
+      }
+      .u-lg-text-indent-4rem {
+        text-indent: 4rem !important;
+      }
+      .u-lg-text-indent-5rem {
+        text-indent: 5rem !important;
+      }
+      .u-lg-text-indent-6rem {
+        text-indent: 6rem !important;
+      }
+      .u-lg-text-indent-7rem {
+        text-indent: 7rem !important;
+      }
+      .u-lg-text-indent-8rem {
+        text-indent: 8rem !important;
+      }
+      .u-lg-text-indent-9rem {
+        text-indent: 9rem !important;
+      }
+      .u-lg-text-indent-10rem {
+        text-indent: 10rem !important;
+      }
+    
+    .u-lg-text-uppercase {
+      text-transform: uppercase;
+    }
+    
+    .u-lg-text-lowercase {
+      text-transform: lowercase;
+    }
+    
+    .u-lg-text-align-center {
+      text-align: center;
+    }
+    
+    .u-lg-text-align-left {
+      text-align: left;
+    }
+    
+    .u-lg-text-align-right {
+      text-align: right;
+    }
+    
+    .u-lg-text-align-justify {
+      text-align: justify;
+    }
+    
+    .u-lg-text-decoration-none {
+      text-decoration: none;
+    }
+    
+    .u-lg-text-decoration-overline {
+      text-decoration: overline;
+    }
+    
+    .u-lg-text-decoration-line-through {
+      text-decoration: line-through;
+    }
+    
+    .u-lg-text-decoration-underline {
+      text-decoration: underline;
+    }
+  }
+@media (min-width: 1200px) {
+      .u-xl-text-indent-1px {
+        text-indent: 1px !important;
+      }
+      .u-xl-text-indent-2px {
+        text-indent: 2px !important;
+      }
+      .u-xl-text-indent-3px {
+        text-indent: 3px !important;
+      }
+      .u-xl-text-indent-4px {
+        text-indent: 4px !important;
+      }
+      .u-xl-text-indent-5px {
+        text-indent: 5px !important;
+      }
+      .u-xl-text-indent-6px {
+        text-indent: 6px !important;
+      }
+      .u-xl-text-indent-7px {
+        text-indent: 7px !important;
+      }
+      .u-xl-text-indent-8px {
+        text-indent: 8px !important;
+      }
+      .u-xl-text-indent-9px {
+        text-indent: 9px !important;
+      }
+      .u-xl-text-indent-10px {
+        text-indent: 10px !important;
+      }
+      .u-xl-text-indent-11px {
+        text-indent: 11px !important;
+      }
+      .u-xl-text-indent-12px {
+        text-indent: 12px !important;
+      }
+      .u-xl-text-indent-13px {
+        text-indent: 13px !important;
+      }
+      .u-xl-text-indent-14px {
+        text-indent: 14px !important;
+      }
+      .u-xl-text-indent-15px {
+        text-indent: 15px !important;
+      }
+      .u-xl-text-indent-16px {
+        text-indent: 16px !important;
+      }
+      .u-xl-text-indent-17px {
+        text-indent: 17px !important;
+      }
+      .u-xl-text-indent-18px {
+        text-indent: 18px !important;
+      }
+      .u-xl-text-indent-19px {
+        text-indent: 19px !important;
+      }
+      .u-xl-text-indent-20px {
+        text-indent: 20px !important;
+      }
+      .u-xl-text-indent-21px {
+        text-indent: 21px !important;
+      }
+      .u-xl-text-indent-22px {
+        text-indent: 22px !important;
+      }
+      .u-xl-text-indent-23px {
+        text-indent: 23px !important;
+      }
+      .u-xl-text-indent-24px {
+        text-indent: 24px !important;
+      }
+      .u-xl-text-indent-25px {
+        text-indent: 25px !important;
+      }
+      .u-xl-text-indent-26px {
+        text-indent: 26px !important;
+      }
+      .u-xl-text-indent-27px {
+        text-indent: 27px !important;
+      }
+      .u-xl-text-indent-28px {
+        text-indent: 28px !important;
+      }
+      .u-xl-text-indent-29px {
+        text-indent: 29px !important;
+      }
+      .u-xl-text-indent-30px {
+        text-indent: 30px !important;
+      }
+      .u-xl-text-indent-31px {
+        text-indent: 31px !important;
+      }
+      .u-xl-text-indent-32px {
+        text-indent: 32px !important;
+      }
+      .u-xl-text-indent-33px {
+        text-indent: 33px !important;
+      }
+      .u-xl-text-indent-34px {
+        text-indent: 34px !important;
+      }
+      .u-xl-text-indent-35px {
+        text-indent: 35px !important;
+      }
+      .u-xl-text-indent-36px {
+        text-indent: 36px !important;
+      }
+      .u-xl-text-indent-37px {
+        text-indent: 37px !important;
+      }
+      .u-xl-text-indent-38px {
+        text-indent: 38px !important;
+      }
+      .u-xl-text-indent-39px {
+        text-indent: 39px !important;
+      }
+      .u-xl-text-indent-40px {
+        text-indent: 40px !important;
+      }
+      .u-xl-text-indent-41px {
+        text-indent: 41px !important;
+      }
+      .u-xl-text-indent-42px {
+        text-indent: 42px !important;
+      }
+      .u-xl-text-indent-43px {
+        text-indent: 43px !important;
+      }
+      .u-xl-text-indent-44px {
+        text-indent: 44px !important;
+      }
+      .u-xl-text-indent-45px {
+        text-indent: 45px !important;
+      }
+      .u-xl-text-indent-46px {
+        text-indent: 46px !important;
+      }
+      .u-xl-text-indent-47px {
+        text-indent: 47px !important;
+      }
+      .u-xl-text-indent-48px {
+        text-indent: 48px !important;
+      }
+      .u-xl-text-indent-49px {
+        text-indent: 49px !important;
+      }
+      .u-xl-text-indent-50px {
+        text-indent: 50px !important;
+      }
+      .u-xl-text-indent-1rem {
+        text-indent: 1rem !important;
+      }
+      .u-xl-text-indent-2rem {
+        text-indent: 2rem !important;
+      }
+      .u-xl-text-indent-3rem {
+        text-indent: 3rem !important;
+      }
+      .u-xl-text-indent-4rem {
+        text-indent: 4rem !important;
+      }
+      .u-xl-text-indent-5rem {
+        text-indent: 5rem !important;
+      }
+      .u-xl-text-indent-6rem {
+        text-indent: 6rem !important;
+      }
+      .u-xl-text-indent-7rem {
+        text-indent: 7rem !important;
+      }
+      .u-xl-text-indent-8rem {
+        text-indent: 8rem !important;
+      }
+      .u-xl-text-indent-9rem {
+        text-indent: 9rem !important;
+      }
+      .u-xl-text-indent-10rem {
+        text-indent: 10rem !important;
+      }
+    
+    .u-xl-text-uppercase {
+      text-transform: uppercase;
+    }
+    
+    .u-xl-text-lowercase {
+      text-transform: lowercase;
+    }
+    
+    .u-xl-text-align-center {
+      text-align: center;
+    }
+    
+    .u-xl-text-align-left {
+      text-align: left;
+    }
+    
+    .u-xl-text-align-right {
+      text-align: right;
+    }
+    
+    .u-xl-text-align-justify {
+      text-align: justify;
+    }
+    
+    .u-xl-text-decoration-none {
+      text-decoration: none;
+    }
+    
+    .u-xl-text-decoration-overline {
+      text-decoration: overline;
+    }
+    
+    .u-xl-text-decoration-line-through {
+      text-decoration: line-through;
+    }
+    
+    .u-xl-text-decoration-underline {
+      text-decoration: underline;
+    }
+  }

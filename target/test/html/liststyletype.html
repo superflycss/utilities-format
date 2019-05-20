@@ -1,0 +1,263 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Tests for @superflycss/component-test</title>
+  <link href="../css/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<!--START TEST -->
+
+
+
+  <div class="TestHeader ">
+    <span class="TestCounter"></span>
+    <span class="TestUtilities">u-list-style-[type]</span>
+  </div>
+  <div class="TestContainer">
+    <div class="TestInput">
+      <div class="TestWhen "></div>
+      <div class="TestDescription ">
+<code class="u-text-color-md-pink-400">u-list-style-[type]</code> is applied.
+</div>
+      <pre class="TestMarkup ">        <code class="html">         
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-flex 
+            u-flex-column 
+            u-width-40rem"</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-none 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-inherit 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-circle 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-disc 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-decimal 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-lower-alpha 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-lower-latin 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-lower-greek 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-lower-roman 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-upper-alpha 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-upper-latin 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-upper-greek 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-list-style-upper-roman 
+             u-text-color-md-pink-400 
+             u-font-size-500"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"u-text-color-gray"</span>&gt;</span>Lorem ipsum dolor sit amet<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span> 
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+       </code>
+     </pre>
+     </div>
+    <!--END TEST INPUT-->
+     <div class="TestOutput">
+      <div class="TestThen "></div>
+      <div class="TestDescription">The correct list style type is rendered.</div>
+     <div class="TestRender">
+
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+
+  <ul class="u-list-style-none 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-inherit 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-circle 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-disc 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-decimal 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-lower-alpha 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-lower-latin 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-lower-greek 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-lower-roman 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-upper-alpha 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-upper-latin 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-upper-greek 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+  <ul class="u-list-style-upper-roman 
+             u-text-color-md-pink-400 
+             u-font-size-500">
+      <li>
+        <span class="u-text-color-gray">Lorem ipsum dolor sit amet</span>
+      </li> 
+  </ul>
+  <br>
+</div>
+
+      </div>      
+    </div>
+  </div>
+
+
+
+</body></html>

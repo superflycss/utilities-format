@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.component( 'test' ) }}
+
+<body>
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-uppercase</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-uppercase', when1, 'The letters are rendered in uppercase.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-indent-{{i}}rem 
+              u-font-size-500 
+              u-text-uppercase">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-lowercase</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-lowercase', when1, 'The letters are rendered in lowercase.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-indent-{{i}}rem 
+              u-font-size-500 
+              u-text-lowercase">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-align-center</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-align-center', when1, 'The letters are rendered horizontally centered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-align-center 
+              u-font-size-500 
+              u-text-lowercase">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-align-left</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-align-left', when1, 'The letters are rendered horizontally left.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-align-left
+              u-font-size-500 
+              u-text-lowercase">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-align-right</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-align-right', when1, 'The letters are rendered horizontally right.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-align-right
+              u-font-size-500">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-align-justify</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-align-justify', when1, 'The content spaces out such that as many blocks fit onto one line as possible.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-align-justify
+              u-font-size-500">
+             The content spaces out such that as many blocks fit onto one line as possible
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-decoration-none</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-decoration-none', when1, 'The content renders without any text decoration.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-decoration-none
+              u-font-size-500">
+             The content renders without any text decoration
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-decoration-overline</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-decoration-overline', when1, 'The content renders without any text decoration.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-decoration-overline
+              u-font-size-500">
+             The content renders without any text decoration
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-decoration-line-through</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-decoration-line-through', when1, 'The content renders without any text decoration.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-decoration-line-through
+              u-font-size-500">
+             The content renders without any text decoration
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-decoration-underline</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-decoration-underline', when1, 'The content renders without any text decoration.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-30rem">
+  <div class="TestBox
+              u-text-decoration-underline
+              u-font-size-500">
+             The content renders without any text decoration
+  </div>
+  <br>
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-indent-[width]rem</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-indent-[width]rem', when1, 'The correct indentation is rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+{% for i in range(1, 11) %}
+  <div class="TestBox
+              u-text-indent-{{i}}rem 
+              u-font-size-500">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+{%- endfor %}
+</div>
+{% endcall %}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">u-text-indent-[width]px</code> is applied.
+{% endset %}
+{% call Test.utility( 'u-text-indent-[width]px', when1, 'The correct indentation is  rendered.' ) %}
+<div class="u-flex 
+            u-flex-column 
+            u-width-40rem">
+{% for i in range(1, 51) %}
+  <div class="TestBox
+              u-text-indent-{{i}}px 
+              u-font-size-500">
+             Lorem ipsum dolor sit amet
+  </div>
+  <br>
+{%- endfor %}
+</div>
+{% endcall %}
+</body>
+
+</html>

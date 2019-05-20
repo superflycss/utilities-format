@@ -1,0 +1,62 @@
+@each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
+  lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
+{
+  .u-list-style-$type {
+    list-style-type: $type !important;
+  }
+}
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+    @each $type in none, inherit, circle, disc, decimal, lower-alpha,
+      lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
+      upper-greek, upper-roman
+    {
+      .u-$(vpsize)-list-style-$type {
+        list-style-type: $type !important;
+      }
+    }
+  }
+}
+
+@each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
+  lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
+{
+  .u-ol-list-style-$type ol li  {
+    list-style-type: $type !important;
+  }
+}
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+    @each $type in none, inherit, circle, disc, decimal, lower-alpha,
+      lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
+      upper-greek, upper-roman
+    {
+      .u-ol-$(vpsize)-list-style-$type ol li  {
+        list-style-type: $type !important;
+      }
+    }
+  }
+}
+
+@each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
+  lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
+{
+  .u-ul-list-style-$type ol li  {
+    list-style-type: $type !important;
+  }
+}
+
+@each $vpsize in sm, md, lg, xl {
+  @media (--$(vpsize)-viewport) {
+    @each $type in none, inherit, circle, disc, decimal, lower-alpha,
+      lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
+      upper-greek, upper-roman
+    {
+      .u-ul-$(vpsize)-list-style-$type ol li  {
+        list-style-type: $type !important;
+      }
+    }
+  }
+}

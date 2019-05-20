@@ -1,0 +1,43 @@
+{
+  "name": "@superflycss/utilities-format",
+  "version": "1.2.9",
+  "description": "Format utilities",
+  "main": "index.css",
+  "scripts": {
+    "update": "ncu -u && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/utilities-format.git"
+  },
+  "keywords": [
+    "css",
+    "utilities",
+    "format",
+    "variables",
+    "background",
+    "superflycss"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superflycss/utilities-format/issues"
+  },
+  "homepage": "https://github.com/superflycss/utilities-format#readme",
+  "devDependencies": {
+    "@superflycss/component-body": "^1.0.4",
+    "@superflycss/component-display": "^1.0.9",
+    "@superflycss/component-header": "^2.1.0",
+    "@superflycss/component-test": "^3.6.30",
+    "@superflycss/foundation": "^2.0.3",
+    "@superflycss/utilities-layout": "^4.0.25",
+    "@superflycss/utilities-colors": "^3.2.9",
+    "@superflycss/utilities-effects": "^2.1.3",
+    "@superflycss/utilities-fonts": "^3.3.7",
+    "lite-server": "^2.4.0",
+    "npm-check-updates": "^3.1.9"
+  },
+  "dependencies": {
+    "@superflycss/variables-dimension": "^2.0.0"
+  }
+}

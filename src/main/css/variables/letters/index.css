@@ -1,0 +1,22 @@
+:root {
+  @for $spacing from 0 to 20 {
+    --letter-spacing-$(spacing)px: $(spacing)px; 
+    --u-letter-spacing-$(spacing)px {
+      letter-spacing: var(--letter-spacing-$(spacing)px);
+    }
+  }
+
+  @for $spacing from 0 to 100 {
+    --fractional-letter-spacing-$(spacing)px: calc($(spacing) / 10)px; 
+    --u-fractional-letter-spacing-$(spacing)px {
+      letter-spacing: var(--fractional-letter-spacing-$(spacing)px);
+    }
+  }
+
+  @for $spacing from 15 to 51 {
+    --line-height-$(spacing)px: $(spacing)px; 
+    --u-line-height-$(spacing)px {
+      letter-spacing: var(--line-height-$(spacing)px);
+    }
+  }
+}

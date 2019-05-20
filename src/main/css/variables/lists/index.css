@@ -1,0 +1,10 @@
+:root {
+  @each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
+    lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
+  {
+    --list-style-type-$type: $type;
+    --u-list-style-$type {
+      list-style-type: $type;
+    }
+  }
+}
