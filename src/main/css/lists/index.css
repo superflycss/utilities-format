@@ -1,5 +1,3 @@
-@import "../variables/lists";
-
 @each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
   lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
 {
@@ -24,7 +22,7 @@
 @each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
   lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
 {
-  .u-ol-list-style-$type > ol > li {
+  .u-ol-list-style-$type ol li  {
     list-style-type: $type !important;
   }
 }
@@ -35,7 +33,7 @@
       lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
       upper-greek, upper-roman
     {
-      .u-ol-$(vpsize)-list-style-$type > ol > li {
+      .u-ol-$(vpsize)-list-style-$type ol li  {
         list-style-type: $type !important;
       }
     }
@@ -45,7 +43,7 @@
 @each $type in none, inherit, circle, disc, decimal, lower-alpha, lower-latin,
   lower-greek, lower-roman, upper-alpha, upper-latin, upper-greek, upper-roman
 {
-  .u-ul-list-style-$type > ul > li {
+  .u-ul-list-style-$type ol li  {
     list-style-type: $type !important;
   }
 }
@@ -56,7 +54,7 @@
       lower-latin, lower-greek, lower-roman, upper-alpha, upper-latin,
       upper-greek, upper-roman
     {
-      .u-ul-$(vpsize)-list-style-$type > ul > li {
+      .u-ul-$(vpsize)-list-style-$type ol li  {
         list-style-type: $type !important;
       }
     }
