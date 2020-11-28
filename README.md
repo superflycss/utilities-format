@@ -14,3 +14,7 @@ See [Usage](https://github.com/superflycss/superflycss/#usage)
 ## Tests
 
 [Superfly CSS Utilies Format Tests](https://superflycss.github.io/utilities-format/target/test/html/)
+
+## Snippets / Built CSS
+
+[index.css](https://github.com/superflycss/utilities-format/blob/master/target/main/css/index.css)
